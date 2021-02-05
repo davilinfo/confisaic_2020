@@ -27,7 +27,7 @@ nvm install 10.15.3
 npm install -g pm2
 
 /*clone restaurant_sidechain repository*/
-git clone https://github.com/davilinfo/restaurant_sidechain.git
+git clone https://github.com/davilinfo/confisaic_2020.git
 
 /*run npm ci from inside restaurant_sidechain folder*/
 npm ci
