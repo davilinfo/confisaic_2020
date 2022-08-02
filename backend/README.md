@@ -14,7 +14,11 @@ npm ci
 /*open the baseClasses folder and specify the restaurant address, passphrase in RestaurantInfo.js file*/
 
 /*Configuring new food type inside luxury restaurant
-running a dish command to include all the menu items of your restaurant from inside of restaurant_sidechains folder. Change the file menu_transaction_request.js properly and then run the following command from the restaurant_sidechain folder:*/ 
+running a dish command to include all the menu items of your restaurant from inside of restaurant_sidechains folder. First all lets give some lsk to restaurant account with the following command*/ 
+
+node dish_commands/balance_request.js | tee >(curl -X POST -H "Content-Type: application/json" -d @- localhost:4000/api/transactions)
+
+/*Change the file menu_transaction_request.js properly and then run the following command from the restaurant_sidechain folder:*/ 
 
 node dish_commands/menu_transaction_request.js | tee >(curl -X POST -H "Content-Type: application/json" -d @- localhost:4000/api/transactions)
 
