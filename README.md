@@ -43,4 +43,6 @@ pm2 logs 0
 
 /*pm2 --help for other commands*/
 
+/*access dish_commands folder read the readme.txt file and then run the commands each command once*/
+
 Now move to the backend folder to configure the backend. Open the Readme there
