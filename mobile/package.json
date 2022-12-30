@@ -20,7 +20,7 @@
   "dependencies": {
     "@expo/vector-icons": "^10.2.0",
     "@liskhq/lisk-cryptography": "^2.2.0",
-    "@liskhq/lisk-transactions": "^2.3.1",
+    "@liskhq/lisk-transactions": "^5.2.2",
     "@react-native-community/masked-view": "^0.1.6",
     "@react-navigation/stack": "^5.4.1",
     "axios": "^0.19.1",
